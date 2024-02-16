@@ -60,6 +60,17 @@
       </div>
 
       <div class="animation-block"></div> 
+	    <script> 
+		function showMessageBox() {
+		    var result = confirm("This is a message box!\n\nDo you want to proceed?");
+		
+		    if (result) {
+		        alert("You clicked OK!");
+		    } else {
+		        alert("You clicked Cancel!");
+		    }
+		} 
+	    </script>
       <div class="sections">
         <!--=====================================================
 					Main Section
@@ -85,6 +96,7 @@
                       href="#contact"
                       class="btn-custom section-toggle"
                       data-section="contact"
+		 	onclick="showMessageBox()"
                     >
                       Liên hệ tuyển dụng
                     </a>
