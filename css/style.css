@@ -265,6 +265,12 @@ body.border-dark .main-content:after{
 	letter-spacing:8px;
 	font-size:78px;
 }
+.intro-text > h2{
+	margin:0;
+	color:#e5ff00;
+	text-transform:uppercase;
+}
+
 .intro-text > p{
 	font-size:18px;
 	color:#FFF;
@@ -523,15 +529,15 @@ body.section-switching.up .animation-block{
 	About Section
 =======================================================*/
 .about-section{
-	background:#F0F0F0;
+	background:#f0e9e9;
 }
 .about-block .section-header{
-	margin-bottom:80px;
+	margin-bottom:50px;
 }
 .about-text > p{
-	font-size:14px;
-	color:rgba(0,0,0,.4);
-	line-height:1.8em;
+	font-size:15px;
+	color:rgb(199, 61, 61);
+	line-height:3em;
 }
 .about-text{
 	margin-bottom:25px;
